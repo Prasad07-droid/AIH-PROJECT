@@ -1,0 +1,16 @@
+# WoundTrack MVP — pinned direct dependencies (Python 3.10+)
+# CPU inference is supported. For GPU training, install the matching PyTorch
+# CUDA wheel recommended by https://pytorch.org/get-started/locally/.
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+albumentations==2.0.8
+matplotlib==3.9.3
+Pillow==11.0.0
+torch==2.5.1
+torchvision==0.20.1
+segmentation-models-pytorch==0.4.0
+pandas==2.2.3
+streamlit==1.41.1
+plotly==5.24.1
+reportlab==4.2.5
+pytest==8.3.4

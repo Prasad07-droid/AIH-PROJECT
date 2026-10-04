@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Downloaded datasets and generated artifacts (never commit patient/wound data)
+woundtrack/data/raw/
+woundtrack/data/processed/
+woundtrack/data/splits/
+woundtrack/data/uploads/
+woundtrack/data/reports/
+woundtrack/data/*.db
+woundtrack/data/*.sqlite3
+woundtrack/models/
+woundtrack/*.db
